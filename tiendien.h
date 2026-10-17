@@ -1,7 +1,5 @@
-// File: tiendien.h
-
 #ifndef TIENDIEN_H
-#define TIENDIEN_H // Tên đặt cho vui, cho minh họa chứ không liên quan gì tới tiendien.h nhé ae
+#define TIENDIEN_H
 
 // Hàm của Dev 1: Yêu cầu nhập chỉ số đầu/cuối, bắt lỗi (cuối < đầu), trả về số kWh.
 int NhapVaTinhSoKWh(void);
@@ -24,4 +22,5 @@ void UocTinhKWhThietBi();
 
 // Chức năng mở rộng 2: Xuất hóa đơn ra file text
 void XuatHoaDonRaFile(int so_kwh);
+
 #endif

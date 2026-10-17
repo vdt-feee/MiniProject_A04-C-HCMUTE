@@ -39,7 +39,6 @@ void ThongKe12Thang(int mang_kwh[], int so_thang){
 
     float trungbinh = (float)tong_kwh / so_thang;
 
-    // IN KET QUA
     printf("\n--- BANG CHI TIET THONG KE CUA %d THANG ---\n", so_thang);
     printf("Thang tieu thu NHIEU nhat: Thang %d (%d kWh)\n", thang_max, max_kwh);
     printf("Thang tieu thu IT nhat   : Thang %d (%d kWh)\n", thang_min, min_kwh);
