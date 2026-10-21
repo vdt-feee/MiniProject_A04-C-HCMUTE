@@ -1,3 +1,5 @@
+// Nguyễn Công Thuận, Mã số sinh viên: 26119203
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "tiendien.h"

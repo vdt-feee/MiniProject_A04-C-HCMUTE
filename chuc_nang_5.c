@@ -1,3 +1,5 @@
+// Trần Duy Nam, Mã số sinh viên: 26119156
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "tiendien.h"

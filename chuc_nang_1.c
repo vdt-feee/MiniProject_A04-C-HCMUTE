@@ -1,3 +1,6 @@
+// Trần Ngọc Thắng, Mã số sinh viên: 26119192
+// Phan Quang Thành, Mã số sinh viên: 26119188
+
 #include <stdio.h>
 #include "tiendien.h" // Nhúng bản hợp đồng chung vào
 
@@ -9,6 +12,7 @@ int NhapVaTinhSoKWh() {
     do {
         printf("Nhap chi so cong to dau ky (kWh): ");
         kiem_tra = scanf("%d", &dau_ky); // Kiem tra input dung hay sai
+    //  scanf trả về 1 là đúng, 0 là sai
 
         if (kiem_tra == 0) {
             printf("Loi: Ban da nhap chu. Vui long nhap so!\n");

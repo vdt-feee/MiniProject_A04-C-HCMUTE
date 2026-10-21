@@ -1,10 +1,11 @@
+//  Vũ Duy Thức, Mã số sinh viên: 26119205
+
 #include <stdio.h>
 #include "tiendien.h"
 
 int main() {
     int chon;
 
-    // Các biến Cầu nối
     int so_kwh_hien_tai = 0;
     float tien_chua_vat = 0;
 
@@ -95,7 +96,7 @@ int main() {
             default:
                 printf("Loi: Lua chon khong hop le. Vui long nhap tu 0 den 7!\n");
         }
-    } while (chon != 0);
+    } while (chon != 0); // 0 : chon == 0
 
     return 0;
 }
